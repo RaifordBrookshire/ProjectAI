@@ -1,3 +1,5 @@
+
+### Project AI - ChatGPT Api Integration
 This Proof of Concept demonstrates the full flow of incorporating ChatGPT into your own API. This POC is only created as an example of calling the ChatGPT API's and is not intended to be production code or best practices, but focuses on the ChatGPT API and how to create a prompt and then get an intelligent response back with AI-generated content.
 
 #### AI Role in Tomorrow's Applications
