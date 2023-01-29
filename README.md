@@ -5,7 +5,7 @@ This Proof of Concept demonstrates the full flow of incorporating ChatGPT into y
 #### AI Role in Tomorrow's Applications
 There are a huge number of open APIs that allow AI (Artificial Intelligence) to be integrated into applications to bring a new level of interaction and intelligence. ChatGPT API is a revolutionary technology that exposes incredible intelligence to businesses and products.
 
-#### Future of this POC
+#### Future of this Proof / Demo 
 In the future, I will likely be adding new functionality to this POC with other AI APIs, such as natural language processing and computer vision, to provide even more advanced capabilities. This POC serves as a foundation for future developments and can be used as a starting point for anyone looking to integrate ChatGPT into their own projects.
 
 
