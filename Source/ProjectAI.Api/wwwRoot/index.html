@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT</title>
+</head>
+<body>
+    <h1>Chat with ChatGPT</h1>
+    <form action="https://localhost:44342/content" method="post">
+        <label for="prompt">Enter your prompt:</label>
+        <br>
+        <textarea name="prompt" id="prompt" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Submit" onclick="submitForm()">
+    </form>
+
+    <textarea id="textarea"></textarea>
+
+</body>
+<script>
+    function submitForm() {
+        var prompt = document.getElementById("prompt").value;
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://localhost:44342/content", true);
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                document.getElementById("textarea").value = xhr.responseText;
+            }
+        };
+        xhr.send("prompt=" + prompt);
+    }
+</script>
+</html>
